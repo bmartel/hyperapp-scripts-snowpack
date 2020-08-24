@@ -29,10 +29,10 @@ module.exports = function () {
         "jest/fileTransform.js"
       ),
     },
-    transformIgnorePatterns: ["node_modules"],
-    // transformIgnorePatterns: [
-    //   "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
-    //   "^.+\\.module\\.(css|sass|scss)$",
-    // ],
+    // transformIgnorePatterns: ["node_modules"],
+    transformIgnorePatterns: [
+      "[/\\\\]node_modules[/\\\\](?!hyperapp|.+)\\.(js|jsx|mjs|cjs|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$",
+    ],
   };
 };
