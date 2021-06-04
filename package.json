@@ -1,10 +1,17 @@
 {
   "name": "@martel/hyperapp-scripts-snowpack",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "snowpack.config.js",
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "babel.config.json",
+    "jest.config.js",
+    "tsconfig.base.json",
+    "snowpack.config.js",
+    "jest"
+  ],
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.14.3",
