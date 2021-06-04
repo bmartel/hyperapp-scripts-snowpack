@@ -1,6 +1,6 @@
 {
   "name": "@martel/hyperapp-scripts-snowpack",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "snowpack.config.js",
   "publishConfig": {
     "access": "public"
@@ -14,6 +14,7 @@
     "@babel/preset-typescript": "^7.13.0",
     "@snowpack/plugin-babel": "^2.1.7",
     "@snowpack/plugin-dotenv": "^2.1.0",
+    "@testing-library/jest-dom": "^5.13.0",
     "babel-jest": "^27.0.2",
     "jsdom": "^16.6.0",
     "react-app-polyfill": "^2.0.0",

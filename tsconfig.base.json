@@ -1,4 +1,5 @@
 {
+  "include": ["src/*"],
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
@@ -6,15 +7,15 @@
     "jsx": "preserve",
     "jsxFactory": "h",
     "baseUrl": "./",
-    "paths": { "*": ["web_modules/.types/*"] },
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "allowSyntheticDefaultImports": true,
     "importsNotUsedAsValues": "error",
-    /* more strict checking for errors that per-file transpilers like `esbuild` would crash */
     "isolatedModules": true,
-    /* noEmit - We only use TypeScript for type checking. */
     "noEmit": true,
-    /* Additional Options */
     "strict": true,
+    "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
