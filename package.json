@@ -1,6 +1,6 @@
 {
   "name": "@martel/hyperapp-scripts-snowpack",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "snowpack.config.js",
   "publishConfig": {
     "access": "public"
