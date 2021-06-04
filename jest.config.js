@@ -11,6 +11,7 @@ const setupTestsFile = true;
 module.exports = function () {
   return {
     verbose: true,
+    testEnvironment: "jsdom",
 
     setupFiles: [require.resolve("react-app-polyfill/jsdom")],
     setupFilesAfterEnv: setupTestsFile ? ["<rootDir>/jest.setup.js"] : [],
